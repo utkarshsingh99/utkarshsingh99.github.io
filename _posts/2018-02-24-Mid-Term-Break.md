@@ -15,6 +15,7 @@ Yeah, that's working!
 Now there's another problem I want rectified. I want to change the Description below my Name on the Home Page.
 Although I did change it in the site/about/index.html file, it's still not showing. I think I'll have to have a look at the YAML Front Matter in the repository.
 Tough job!
+
 Now I know when I change the description, I changed it in the meta name="description" tag. So I think I need to find something that says something.description,
 most probably site.description or site.about.description.  
 Well, I'm lazy as hell and I'm just gonna Google how to do this instead of studying the code.
@@ -29,3 +30,5 @@ I tried a lot of stuff, googled a lot. Now I'm turning back to primitive ways. I
 Still bundler doesn't work.
 But I just checked my mail from Github. It says that there's a page build error in line 12 of my config.yml.
 I corrected certain errors. The home page works fine, but the data of my posts is still not getting updated.
+
+Phew, I reverted all the description changes in all the index.html and made the correct change in config.yml.
