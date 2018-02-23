@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Formatting Markdown Files"
+date:   2018-02-24 23:00:00 -0600
+categories: none
+---
 So I'm exploring the md file commands for better presentation in posts.  
 
 I'm using [this link](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html) as a reference for this post.

@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Selecting the Right Theme"
+date:   2018-02-24 19:00:00 -0600
+categories: none
+---
 So I have this Gemfile and Gemfile.lock which I have no idea about.  
 Still, let's just try the new themes by simple writing them under config.yml.  
 I'm gonna first check if the blog is actually changing when I change themes, so first, Architect theme.  
