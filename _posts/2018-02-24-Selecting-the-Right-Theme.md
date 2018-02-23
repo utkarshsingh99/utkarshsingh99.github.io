@@ -7,3 +7,8 @@ The theme is working properly, but the only thing is I'm unable to add the theme
 
 I have to copy the html code again and again. Hope I find out a shorter way.
 Since selecting a theme is a one-time process, I'm not gonna loiter around this problem for too long.
+Now instead of trying out each theme one by one by pasting it into the default.html, I simply previewed the themes.
+Hacker and Cayman top the list for me. The good thing about these themes are they are pretty stretched out unlike the other ines who
+have made the div too short for the content.
+I'm thinking of putting this to vote.
+Before that, let me preview both of these.
