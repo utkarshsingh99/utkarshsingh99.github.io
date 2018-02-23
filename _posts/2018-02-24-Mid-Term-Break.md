@@ -10,4 +10,13 @@ So let me just list out the things I want to be doing today.
 Okay, now let's take a moment to pray that I may finish all of these tasks today.
 
 So let's begin.
-The use of '>' shifts the text into a seperate division. I want to put all of the commands into such divisions. 
+The use of '>' shifts the text into a seperate division. I want to put all of the commands into such divisions.
+Yeah, that's working!
+Now there's another problem I want rectified. I want to change the Description below my Name on the Home Page.
+Although I did change it in the site/about/index.html file, it's still not showing. I think I'll have to have a look at the YAML Front Matter in the repository.
+Tough job!
+Now I know when I change the description, I changed it in the meta name="description" tag. So I think I need to find something that says something.description,
+most probably site.description or site.about.description.  
+Well, I'm lazy as hell and I'm just gonna Google how to do this instead of studying the code.
+Okay, so I just have to change the config.yml file.
+Seems easy enough.
