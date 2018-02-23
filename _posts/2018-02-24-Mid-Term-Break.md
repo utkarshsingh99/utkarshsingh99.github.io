@@ -20,3 +20,5 @@ most probably site.description or site.about.description.
 Well, I'm lazy as hell and I'm just gonna Google how to do this instead of studying the code.
 Okay, so I just have to change the config.yml file.
 Seems easy enough.
+Now there seems to be a problem. My changes aren't reflecting in the main website.
+Let me first delete all the unwanted files in my folder.
