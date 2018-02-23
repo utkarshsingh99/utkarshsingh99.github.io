@@ -22,3 +22,10 @@ Okay, so I just have to change the config.yml file.
 Seems easy enough.
 Now there seems to be a problem. My changes aren't reflecting in the main website.
 Let me first delete all the unwanted files in my folder.
+Hmm, this is an interesting problem, or to be honest, a very very Bad one. The content is not getting updated on the site.
+So I tried looking at the site in the offline view. Turns out, my ruby installation is faulty.
+Bundler is not working.
+I tried a lot of stuff, googled a lot. Now I'm turning back to primitive ways. I'm uninstalling and reinstalling the ruby environment on my PC.
+Still bundler doesn't work.
+But I just checked my mail from Github. It says that there's a page build error in line 12 of my config.yml.
+I corrected certain errors. The home page works fine, but the data of my posts is still not getting updated.
