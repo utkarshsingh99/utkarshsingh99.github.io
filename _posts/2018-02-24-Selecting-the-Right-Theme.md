@@ -12,3 +12,7 @@ Hacker and Cayman top the list for me. The good thing about these themes are the
 have made the div too short for the content.
 I'm thinking of putting this to vote.
 Before that, let me preview both of these.
+Okay, I've put it to vote.
+I have decided now, I'm going with 'Hacker'
+
+Now, lets explore the md file commands for better presentation in posts.

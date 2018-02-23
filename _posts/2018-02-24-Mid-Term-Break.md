@@ -1,5 +1,5 @@
 Okay, it's Vacation Time!
-Now, I've already deleted the html file posts into md files. A heads up to [Kartikay Kumar](https://github.com/Kartikay26) for telling me this, saved a lot of time.
+Now, I've already deleted the html file posts and converted them into md files. A heads up to [Kartikay Kumar](https://github.com/Kartikay26) for telling me this, saved a lot of time.
 I've got quite a lot of things in mind that I've got to do.
 So let me just list out the things I want to be doing today.
 > 1. Format the first post properly
