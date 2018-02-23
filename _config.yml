@@ -8,11 +8,12 @@
 # Site settings
 title: Utkarsh Singh
 email: your-email@domain.com
-description: I am ambitious because I know all the things that I aim for depend only on me and not on other people, luck, or on situation. Unlike the secondary stuff like people and attention, success doesn't depend much on the people you're around with.
+description: "I am ambitious because I know all the things that I aim for depend only on me and not on other people, luck, or on situation. Unlike the secondary stuff like people and attention, success doesn't depend much on the people you're around with.
+"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: "@utki23499"
+github_username:  utkarshsingh99
 
 # Build settings
 markdown: kramdown
