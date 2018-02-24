@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mid Term Break"
-date:   2018-02-24 13:00:00 -0600
+date:   2018-02-23 13:00:00 -0600
 categories: none
 ---
 Okay, it's Vacation Time!

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Selecting the Right Theme"
-date:   2018-02-24 19:00:00 -0600
+date:   2018-02-23 19:00:00 -0600
 categories: none
 ---
 So I have this Gemfile and Gemfile.lock which I have no idea about.  

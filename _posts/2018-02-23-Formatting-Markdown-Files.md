@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Formatting Markdown Files"
-date:   2018-02-24 23:00:00 -0600
+date:   2018-02-23 23:00:00 -0600
 categories: none
 ---
 So I'm exploring the md file commands for better presentation in posts.  
