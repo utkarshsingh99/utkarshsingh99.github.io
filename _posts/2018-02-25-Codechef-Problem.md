@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Codechef- 1 Jewels and Stones"
+title:  "Codechef on 25th Feb"
 date:   2018-02-25 00:40:00 -0600
 categories: none
 ---
