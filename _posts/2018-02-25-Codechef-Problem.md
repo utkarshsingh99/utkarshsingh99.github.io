@@ -24,3 +24,20 @@ since the maximum the count can go is only uptill 100, since that's the string l
 There we go, the result's out, it's a correct answer!  
 Now I feel too embarassed to be putting such an easy question as the first one on my blog, Damn!  
 It's fine though since the blog is like a diary only for me and not an application for a job.  
+Here's my main C code.
+
+>char s[1000],j[1000];  
+int count=0;  
+scanf("%s %s",j,s);  
+for(int i=0;i<strlen(s);i++)  
+{  
+  for(int k=0;k<strlen(j);k++)  
+  {  
+    if(s[i]==j[k])  
+    {  
+      count++;  
+      break;  
+    }  
+  }  
+}  
+printf("%d\n",count); 
