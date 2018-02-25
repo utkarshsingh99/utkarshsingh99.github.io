@@ -26,9 +26,10 @@ For a new paragraph, press enter twice.
 >This is also an H2
 >------------------
 
-####Testing Heading Size
+>####Testing Heading Size
 
-###Lists
+>###Lists
+
 Unordered list
 
 *  Item 1
