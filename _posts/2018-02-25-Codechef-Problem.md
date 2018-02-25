@@ -26,7 +26,8 @@ Now I feel too embarassed to be putting such an easy question as the first one o
 It's fine though since the blog is like a diary only for me and not an application for a job.  
 Here's my main C code.
 
-`char s[1000],j[1000];
+```
+char s[1000],j[1000];
 int count=0;
 scanf("%s %s",j,s);
 for(int i=0;i<strlen(s);i++)
@@ -40,21 +41,23 @@ for(int i=0;i<strlen(s);i++)
     }
   }
 }
-printf("%d\n",count);   `
-
+printf("%d\n",count);  
+```
 Next Problem! [GCD2](https://www.codechef.com/problems/GCD2)  
 This one is a constraints problem. Here's the problem statement.   
      There will be a smaller integer in the range of 0 to 400000, and there will be a bigger integer
      in the range of 0 to 10^250. I have to find out the GCD of these numbers.
 
 The algo for GCD is also given:
-`int gcd(int a, int b)
+```
+int gcd(int a, int b)
 {
 	if (b==0)
 		return a;
 	else
 		return gcd(b,a%b);
-}`
+}
+```
 Now obviously I can't take the bigger integer input in an int datatype since I'm working in C.  
 So I'll take the input in a character array, then extract the last digits of the array into an integer.  
 This integer will just be one digit more than the smaller integer.  
@@ -65,17 +68,20 @@ Now instead of keeping the number just one digit bigger than the smaller one, ho
 I won't have to count the digits of the smaller one which will require anothe loop.  
 So the code has been written. Now there was an interesting glitch I encountered; don't really know if it should be called one though.  
 To convert longer numbers into shorter ones, this was the loop I initially used.  
-`for(int i=strlen(s)-1;i>=strlen(s)-7;i--)
+```
+for(int i=strlen(s)-1;i>=strlen(s)-7;i--)
 {
   a=a+pow(10,j)*((int)s[i]-48);
   j++;
 //  printf("%d\n",((int)s[i])-48);
-}`
+}
+```
 
 So in this one, whenever I wrote a digit smaller than string length 7, it would automatically skip the loop.  
 My guess is that it adds the strlen to the value if it goes negative.  
 So I replaced it with this code.  
-`if(strlen(s)<9)
+```
+if(strlen(s)<9)
   num=0;
 else
   num=strlen(s)-7;
@@ -84,7 +90,8 @@ for(int i=strlen(s)-1;i>=num;i--)
   a=a+pow(10,j)*((int)s[i]-48);
   j++;
 //  printf("%d\n",((int)s[i])-48);
-}`
+}
+```
 
 Although this gives the correct answer for sample test cases, when I submitted the solution, it shows WA.  
 I hope my logic is correct. If I have to ultimately divide the bigger number by the smaller number and take its modulus, then shouldn't  
@@ -94,11 +101,13 @@ Yeah, so this method cannot be taken for all solutions. So I looked up Euclidean
 take modulo of the bigger number, all the while keeping bigger number in a character array and extracting it into another integer.  
 Runtime Error! I think it could be because of division by 0, that is, if the smaller number is 0.  
 
-`if(b==0)
+```
+if(b==0)
 {
   printf("0\n");
   break;
-}`
+}
+```
 
 So I added this code, and I'm back to wrong answer. :/  
 Now there could be that the testcases don't follow the rule of smaller number first and bigger number second. That's unlikely though.  
