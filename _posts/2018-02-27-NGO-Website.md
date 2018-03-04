@@ -53,4 +53,4 @@ I have just begin by writing the JS code, and haven't started the HTML page desi
 Now I must point out that I don't want a simple basic list, no. I want rectangular, post card kind of results. on each post card, the Name of the NGO, and all the other info
 shall be displayed.  
 
-I'll come back to this problem later on. For now, I'm gonna sleep and hope I get to enroute Mumbai.
+I'll come back to this problem later on. For now, I'm gonna sleep and hope I get to code enroute Mumbai.
