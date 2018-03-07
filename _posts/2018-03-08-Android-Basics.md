@@ -4,7 +4,7 @@ title: Android Basics
 date: 2018-03-08 00:30:00 -0600
 ---
 
-So [AppTeam](https://github.com/appteam-nith) took some extrs efforts in teaching me Android Studio yesterday,  
+So [AppTeam](https://github.com/appteam-nith) took some extra efforts in teaching me Android Studio yesterday,  
 and a special thanks to [Sahil Sir](https://github.com/RamolaWeb) for that.
 So here are some notes that I took down at the time of teaching, ofcourse I didn't write a lot of stuff and practiced it instead.  
 Yet,
@@ -50,3 +50,42 @@ Change
 >SetContentView(R.layout.activity_second);
 
 "activity_second" is the name of the xml in the layout section.
+
+Okay, this was it. This was probably nothing and completely unorganized, but I'll see if I can change it later on.  
+Now, to start making my own dream apps, I must get fluent in this app and language.  
+And for that, I need to make some basic apps rather than going for my own ones.  
+So I saw a Quotes-maker app on the internet as a basic app. Let me see if I can link my Random Quote Generator project with this.  
+
+Let's begin!  
+Opened the JS Side Project of Random Quotes
+Now, the first thing I need in my app is a new background image. I'm too stylish to keep the plain white background.  
+Here's the net solution:
+
+1. You can go to Drawable and choose the Show in Explorer. Click now and Drawable opens. We can go to Drawable folder. The folder is empty and you can select any one image. Cut to paste on Drawable folder and automatic is enabled in the image.
+2. Now, under the Linear/Relative Layout tab, add:
+>android:background="@drawable/darkness"
+
+So this gives us a complete background.
+Now, there's this nav bar which doesn't suit the background.  
+Okay, so I just went to the values folder, and changed up the color.xml. Just a few trial and errors, and I was done.  
+One problem which I faced was that while making changes to the color.xml file, I couldn't see the changes realtime as I could for the layout xml file I was coding in.  
+
+Anyway, then I decided to give it a textual animation at the beginning. But my app wasn't exactly what I wanted. The intro text wasn't on top of the image but below it!  
+What's the point of a background image then?
+So I changed my LinearLayout to RelativeLayout. It worked so easily!  
+Although in this struggle I did find the equivalent to 'z-index' in Android Studio for LinearLayout, that is:
+>android:layout_weight="0.8"
+
+Although this didn't work for what I really wanted, I might need it some day.  
+Then what I did was just adding a button, made colour changes to it through
+> android:background="@color/colorPrimary"
+
+Since too many colours also spoil the mood, I just gave it the colour of a nav bar and changed the font color to white.  
+One big problem I had was figuring out how to center-align all the contents and which I should be highlighting  
+
+*android:layout_centerHorizontal="true"*
+
+And if we want it to be perfectly aligned from everywhere,
+>android:layout_CenterInParent="true"
+
+So this was just the .xml changes done. Now, as a last task, let me just finally animate the text.
