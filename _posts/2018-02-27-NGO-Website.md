@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Side Project on NGO Site
-date: 2018-020-27 00:45:00 -0600
+date: 2018-02-27 00:45:00 -0600
 ---
 
 Just recently, I was having a talk with one of my classmates about one of the top coder on the Codeforces site, a Russian-origin CP hub.  
