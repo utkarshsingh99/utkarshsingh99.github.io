@@ -88,4 +88,55 @@ One big problem I had was figuring out how to center-align all the contents and 
 And if we want it to be perfectly aligned from everywhere,
 >android:layout_CenterInParent="true"
 
-So this was just the .xml changes done. Now, as a last task, let me just finally animate the text.
+So this was just the .xml changes done. Now, as a last task, let me just finally animate the text.  
+Well, I think it'll require me to build an xml file, and then implement it in the Main_Activity.java.  
+Done! I implemented the fade in effect on the startup screen.  
+So here are the steps:  
+1. Create a resource directory under res folder. Under that, create your xml file containing your animation.  
+2. I created the fade in effect, so my code was basically this:
+```
+<alpha
+        android:duration="1000"
+        android:fromAlpha="0.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="1.0" />
+```
+Obvoiusly there are many more available on the internet and we don't need to write our own codes for them, but a systematic understanding about them is important.  
+From  [JournalDev](https://www.journaldev.com/9481/android-animation-example), these are the notes:
+```
+android:interpolator : It is the rate of change in animation. We can define our own interpolators using the time as the constraint. In the above xml code an inbuilt interpolator is assigned
+android:duration : Duration of the animation in which the animation should complete. It is 300ms here. This is generally the ideal duration to show the transition on the screen.
+
+The start and end of the animation are set using:
+
+android:fromTRANSFORMATION
+android:toTRANSFORMATION
+
+TRANSFORMATION : is the transformation that we want to specify. In our case we start with an x and y scale of 0 and end with an x and y scale of 1
+android:fillAfter : property specifies whether the view should be visible or hidden at the end of the animation. We’ve set it visible in the above code. If it sets to false, the element changes to its previous state after the animation
+android:startOffset : It is the waiting time before an animation starts. This property is mainly used to perform multiple animations in a sequential manner
+android:repeatMode : This is useful when you want the animation to be repeat
+android:repeatCount : This defines number of repetitions on animation. If we set this value to infinite then animation will repeat infinite times
+```
+3. Now implementing this in the Main_activity.java.
+```
+TextView text =(TextView)findViewById(R.id.intro);
+        Animation animation;
+        animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+        text.startAnimation(animation);
+```
+
+Although I have added the animation, the presentation still doesn't look good. One reason is because even after I center the text, it's still left-aligned.  
+I need to put "Welcome to", "Quote a" and "Quote" on seperate lines. And I could add two animations at once which include fade_in and slide_down effects.  
+I have added animations now, however, I need the 3 TextViews to fade in one after the other. Anyway, I couldn't figure it out so I have put up an issue on my repo for that.  
+
+Okay, so I have designed the startup screen completely. Time to move on to the real content. There's a lot of Java coming up right now!  
+
+Hurray! I have completed the first version of my app Completely!
+Yup, I did the Java code, created the new xml layout, and currently I can't believe I made a complete app by myself!
+With this joy, I list out the things that I aim on doing ahead on this app.  
+1. Animate the text that comes after every "Next Quote" button press.
+2. Make the quotes and authors array accessible to the user.
+3. Allow the user to delete and modify the quotes.
+
+So on this happy note, I bid goodbye to my first Android Post.
