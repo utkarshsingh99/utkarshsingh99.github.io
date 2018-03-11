@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GSoC organizations"
-date:   2018-02-25 18:10:00 -0600
+date:   2018-03-11 01:20:00 -0600
 categories: none
 ---
 Hmm, I don't know if I'll make it to GSoC, I don't know if I should try getting into it this year,
@@ -48,3 +48,19 @@ From Google's github blog,
 Make sure to label deliverables as optional or required. You may want your plan to start by producing some kind of white paper,
 or planning the project in **traditional Software Engineering** style. It’s OK to include thinking time (“investigation”) in your work schedule.
 Deliverables should include investigation, coding and documentation.
+
+The only good, interesting project that I found matching up to my skills was [Mind The Word](http://aossie.org/#ideasModal6).  
+They don't have a specific idea, its just one: Make better UI for the extension.  
+Hmm, now they have their project on gitlabs instead of github. So first step is registering myself on gitlabs.  
+Hmm, I linked my github to gitlabs, and now, I have to find worthy issues and submit my PRs to be in their sight.  
+Before that, I must explore the extension. When I click on 'Options', I had to get an API key.  
+The point is, it took me a while to figure out what is happening. It should be an easy task for average people to understand what they have to do.
+Especially if one is form a non-CS background, they might find it difficult to understand what an API is, and to get a key, then paste it in some form which doesn't
+even look like one; it's pretty difficult. So my first sub-idea would be to change the main page design.
+Now, what if I open up a page that is in a different language, but I want to increment or decrement the percentage of the words being translated.  
+I could keep a shortcut option to do that.
+In the issue of [Localizing an extension](https://gitlab.com/aossie/MindTheWord/issues/36), I might find a way to link it to Sanskrit or rather Tamil and Telegu, since they are needed a lot in India and there are a lot of sites in that language.
+Okay, bad news, they have already been added in the markdown files. I need to stick with the alternative API issue then.  
+Before all this, I think I should first learn how to build a proper extension from scratch.
+[Let's Begin](https://www.sitepoint.com/create-chrome-extension-10-minutes-flat/)  
+  
