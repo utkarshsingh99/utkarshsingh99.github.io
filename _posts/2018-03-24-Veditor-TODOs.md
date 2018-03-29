@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Voice Editor Application for Hackathon
 date: 2018-03-24 10:00 -0600
 ---
