@@ -40,6 +40,6 @@ A very interesting question with gooood testcases. Here's an example:
 Output:
 >oveglay
 
-###5:00 pm
+### 5:00 pm
 Done! The problem is done! I won't do more problems since I have got other stuff to do [ACADEMICS].
 Anyway, hope I can get my hands on the Wikipedia API tomorrow.
