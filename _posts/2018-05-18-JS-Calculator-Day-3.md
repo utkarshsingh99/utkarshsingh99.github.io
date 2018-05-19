@@ -23,8 +23,8 @@ Next is the history what I'm thinking of. All calculator history will be coming 
 2. Build the circular number display
 3. Build the +,-,/,* buttons.
 4. Build the screen.
-5. Put the core code into the calc.js file to display results.
-[Optional]
+5. Put the core code into the calc.js file to display results.   
+#### [Optional]
 6. Calculation History display.
 7. Notes for help.
 
