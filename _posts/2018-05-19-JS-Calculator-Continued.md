@@ -3,11 +3,13 @@ layout: post
 title: #100DaysOfCode Day 4
 date: 2018-05-19 11:20 -0600
 ---
+### Day 4 of #100DaysOfCode Challenge 
 
 ### 11:25 pm - Shortlisting tasks
 
-1. Construct core code of calculator.
-[Optional]
+1. Construct core code of calculator.  
+
+#### [Optional]
 2. History display
 3. Notes
 
