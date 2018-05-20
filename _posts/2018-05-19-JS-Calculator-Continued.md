@@ -3,11 +3,13 @@ layout: post
 title: #100DaysOfCode Day 4
 date: 2018-05-19 11:20 -0600
 ---
+### Day 4 of #100DaysOfCode Challenge 
 
 ### 11:25 pm - Shortlisting tasks
 
-1. Construct core code of calculator.
-[Optional]
+1. Construct core code of calculator.  
+
+#### [Optional]
 2. History display
 3. Notes
 
@@ -31,4 +33,3 @@ Now I can either begin with the next project or I can build on the history thing
 Minor bugs fixed. Let's submit this and go on to the next project, I could come back to this when I'm done with freeCodeCamp.
 
 ## PROJECT COMPLETE
-
