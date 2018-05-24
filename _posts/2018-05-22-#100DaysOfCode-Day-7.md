@@ -16,3 +16,7 @@ Now I've done the project. But there's one big glitch. It's not responsive.
 
 I have literally shunned Bootstrap. I think I can rebuild this using bootstrap's rows and columns although it was giving me problems before.
 
+### 13:00 
+
+Okay, project rebuilt in Bootstrap, and submitted.
+Now moving on to Tic Tac Toe Game.
