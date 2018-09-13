@@ -25,7 +25,8 @@ wordpos is a set of fast part-of-speech (POS) utilities for Node.js using fast l
 ### Basic Front end
 
 First let's design a basic HTML page that gives us a page to input our cases.
+I ran the code after building a basic HTML page for word input only, but this error was thrown:
+>Reference Error: require is not defined
 
-### Storing input
-
-I tested it and it works just fine. Okay, so let's make a program that stores parts of sentence that it asks from the user
+Of course I can't just use Node functions in the browser. The only way is to build up a server.
+Now, since I will be constantly giving data to server every time I hit the submit button in my HTML page, I will have to include a socket like connection.
