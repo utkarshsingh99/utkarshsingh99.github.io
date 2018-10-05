@@ -81,10 +81,12 @@ Okay, here's something new.
 > ![Alt text](/path/to/image.jpg)
 
 ###Adding Tables
+```
 >| Day     | Meal    | Price |
 >| --------|---------|-------|
 >| Monday  | pasta   | $6    |
 >| Tuesday | chicken | $8    |
+```
 
 And the result is,
 
