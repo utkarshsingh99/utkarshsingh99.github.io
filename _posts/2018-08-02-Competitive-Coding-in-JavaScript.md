@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mad Libs Game
+title: Competitive Coding in JavaScript
 date: 2018-07-20 14:30:00 -0600
 ---
 ## Competitive Coding in JavaScript
